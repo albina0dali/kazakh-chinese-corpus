@@ -1,0 +1,67 @@
+[
+  {
+    "split": "dev",
+    "source": "opus:News-Commentary",
+    "rows": 446
+  },
+  {
+    "split": "dev",
+    "source": "opus:TED2020",
+    "rows": 560
+  },
+  {
+    "split": "test",
+    "source": "opus:News-Commentary",
+    "rows": 461
+  },
+  {
+    "split": "test",
+    "source": "opus:TED2020",
+    "rows": 539
+  },
+  {
+    "split": "train",
+    "source": "kazparc",
+    "rows": 147881
+  },
+  {
+    "split": "train",
+    "source": "opus:GNOME",
+    "rows": 884
+  },
+  {
+    "split": "train",
+    "source": "opus:KDE4",
+    "rows": 12612
+  },
+  {
+    "split": "train",
+    "source": "opus:MultiCCAligned",
+    "rows": 23646
+  },
+  {
+    "split": "train",
+    "source": "opus:OpenSubtitles",
+    "rows": 7866
+  },
+  {
+    "split": "train",
+    "source": "opus:Ubuntu",
+    "rows": 43
+  },
+  {
+    "split": "train",
+    "source": "opus:wikimedia",
+    "rows": 11
+  },
+  {
+    "split": "train",
+    "source": "weblate:en-pivot",
+    "rows": 838
+  },
+  {
+    "split": "train",
+    "source": "wikipedia:kk-zh",
+    "rows": 18213
+  }
+]

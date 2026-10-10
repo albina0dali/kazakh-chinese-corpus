@@ -1,0 +1,347 @@
+[
+  {
+    "source": "kazparc",
+    "recorded_license": "see source terms; model Apache-2.0; output rights depend on source",
+    "rows": 147881
+  },
+  {
+    "source": "opus:GNOME",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus GNOME; zh code zh_CN)",
+    "rows": 884
+  },
+  {
+    "source": "opus:KDE4",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus KDE4; zh code zh_CN)",
+    "rows": 12612
+  },
+  {
+    "source": "opus:MultiCCAligned",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus MultiCCAligned; zh code zh_CN)",
+    "rows": 23646
+  },
+  {
+    "source": "opus:News-Commentary",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus News-Commentary; zh code zh)",
+    "rows": 907
+  },
+  {
+    "source": "opus:OpenSubtitles",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus OpenSubtitles; zh code zh_CN)",
+    "rows": 7866
+  },
+  {
+    "source": "opus:TED2020",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus TED2020; zh code zh)",
+    "rows": 13
+  },
+  {
+    "source": "opus:TED2020",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus TED2020; zh code zh_cn)",
+    "rows": 1086
+  },
+  {
+    "source": "opus:Ubuntu",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus Ubuntu; zh code zh_CN)",
+    "rows": 43
+  },
+  {
+    "source": "opus:wikimedia",
+    "recorded_license": "CHECK-LICENCE (OPUS corpus wikimedia; zh code zh)",
+    "rows": 11
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:AGPL-3.0-or-later|zh:AGPL-3.0-only",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:AGPL-3.0-or-later|zh:AGPL-3.0-or-later",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:AGPL-3.0-or-later|zh:Apache-2.0",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:AGPL-3.0-or-later|zh:BSD-2-Clause",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:AGPL-3.0-or-later|zh:GPL-3.0-only",
+    "rows": 5
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:AGPL-3.0-or-later|zh:GPL-3.0-or-later",
+    "rows": 3
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:Apache-2.0|zh:AGPL-3.0-or-later",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:Apache-2.0|zh:Apache-2.0",
+    "rows": 27
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:Apache-2.0|zh:BSD-2-Clause",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:Apache-2.0|zh:CC-BY-4.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:Apache-2.0|zh:GPL-3.0-or-later",
+    "rows": 5
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:Apache-2.0|zh:MIT",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:Apache-2.0|zh:MPL-2.0",
+    "rows": 19
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:CC-BY-SA-4.0|zh:GPL-3.0-only",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:CC-BY-SA-4.0|zh:GPL-3.0-or-later",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-2.0-only|zh:Apache-2.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-2.0-only|zh:GPL-3.0-or-later",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-2.0-or-later|zh:GPL-2.0-or-later",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-2.0-or-later|zh:GPL-3.0-only",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-2.0-or-later|zh:GPL-3.0-or-later",
+    "rows": 4
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-2.0-or-later|zh:MIT",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-2.0-or-later|zh:MPL-2.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-only|zh:AGPL-3.0-only",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-only|zh:AGPL-3.0-or-later",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-only|zh:Apache-2.0",
+    "rows": 3
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-only|zh:GPL-3.0-only",
+    "rows": 14
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-only|zh:GPL-3.0-or-later",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-only|zh:MIT",
+    "rows": 3
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:AGPL-3.0-only",
+    "rows": 13
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:AGPL-3.0-or-later",
+    "rows": 3
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:Apache-2.0",
+    "rows": 9
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:BSD-3-Clause",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:CC0-1.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:GPL-2.0-or-later",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:GPL-3.0-only",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:GPL-3.0-or-later",
+    "rows": 153
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:ISC",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:MIT",
+    "rows": 8
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:MPL-2.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:GPL-3.0-or-later|zh:proprietary",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:AGPL-3.0-only",
+    "rows": 4
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:AGPL-3.0-or-later",
+    "rows": 7
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:Apache-2.0",
+    "rows": 6
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:BSD-3-Clause",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:CC0-1.0",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:GPL-3.0-or-later",
+    "rows": 4
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:ISC",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:LGPL-2.1-or-later|zh:MIT",
+    "rows": 6
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MIT|zh:AGPL-3.0-or-later",
+    "rows": 12
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MIT|zh:Apache-2.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MIT|zh:GPL-2.0-or-later",
+    "rows": 25
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MIT|zh:GPL-3.0-only",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MIT|zh:GPL-3.0-or-later",
+    "rows": 3
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MIT|zh:MIT",
+    "rows": 459
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MIT|zh:MPL-2.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MPL-2.0|zh:Apache-2.0",
+    "rows": 1
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MPL-2.0|zh:GPL-3.0-or-later",
+    "rows": 2
+  },
+  {
+    "source": "weblate:en-pivot",
+    "recorded_license": "kk:MPL-2.0|zh:MIT",
+    "rows": 1
+  },
+  {
+    "source": "wikipedia:kk-zh",
+    "recorded_license": "CC BY-SA 4.0 (Wikipedia)",
+    "rows": 18213
+  }
+]
