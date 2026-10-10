@@ -54,11 +54,8 @@ When reading with pandas, use `sep="\t"`, `quoting=csv.QUOTE_NONE`,
 Row counts include retained duplicate records. Similarity scores
 are filtering signals, not estimates of translation accuracy.
 
-## Licensing and Provenance
+## License
 
-The MIT License applies only to the preparation code.
-Corpus texts remain subject to their source licenses.
-
-Source information and translation provenance are recorded in
-`manifest.json` and `metadata/`. See `LICENSES.md` for source-specific
-conditions and outstanding redistribution checks.
+The MIT License applies only to the code and notebooks in this repository.
+Corpus texts remain subject to their respective source licenses.
+See LICENSES.md for details.
