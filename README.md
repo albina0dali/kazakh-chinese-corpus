@@ -1,48 +1,64 @@
-# Kazakh–Chinese Corpus (214K)
+# Kazakh–Chinese Corpus
 
-Казахско-китайский корпус: **214 000 пар предложений и текстовых сегментов**.
+## Files
 
-| Раздел | Строк |
+| Split | Rows |
 |---|---:|
-| Train | 211 994 |
-| Dev | 1 006 |
-| Test | 1 000 |
+| Train | 211,994 |
+| Development | 1,006 |
+| Test | 1,000 |
+| **Total** | **214,000** |
 
-Состав: 66 119 исходных пар из OPUS, Wikipedia и Weblate; 147 881 дополнительная пара на основе основного train kk–en KazParC. Для дополнений китайская сторона получена переводом существующего английского текста с Qwen/Qwen2.5-7B-Instruct. Казахская сторона взята из KazParC. Версии моделей, параметры и пороги записаны в `manifest.json`.
+- `data/` — compressed TSV files.
+- `notebooks/` — data preparation notebooks.
+- `scripts/` — loading and verification utilities.
+- `metadata/` — source and license records.
+- `manifest.json` — configuration, counts and checksums.
 
-## Доступность
+## Usage
 
-Метаданные и код подготовки включены. Публичное распространение полного набора текстов ожидает завершения проверки условий исходных источников; см. `LICENSES.md`. Наличие строки `license` в данных само по себе не является разрешением на распространение. Полный рабочий пакет содержит сжатые файлы в `data/`; публичный пакет метаданных их не содержит.
-
-## Формат и загрузка
-
-UTF-8 TSV в gzip, части train по 20 000 строк, заголовок в каждой части. Основные поля: `id`, `kk`, `zh`, `source`, `doc_id`, `license`, `url`, `labse`. Дополнительные поля train сохраняют английский промежуточный текст, происхождение и модель перевода. `data_type=machine_translated` обозначает новые переводы; `existing_mixed_sources` — исходную часть. Исходные dev/test имеют сокращённую схему.
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Verify the files and load the splits:
+
+```bash
 python scripts/verify.py
 python scripts/load_data.py
 ```
 
-Для чтения pandas используйте `sep="\t", quoting=csv.QUOTE_NONE, dtype=str, keep_default_na=False`. Кавычки в тексте являются обычными символами. Количество строк включает повторы. `added_pairs.tsv` отдельно не распространяется в пакете, поскольку эти строки уже входят в train и определяются по `data_type`.
+Files use UTF-8 encoding and tab-separated columns. The `kk` and `zh` columns contain Kazakh and Chinese text.
 
-## Подготовка
+## Data Format
 
-`notebooks/01_prepare_base.ipynb` — сбор исходной части; `02_expand_qwen.ipynb` — расширение через Qwen, фильтрация и экспорт. Оба предназначены для Google Colab. Настройте BASE, доступ к исходным данным и HF_TOKEN в Secrets; токены не записывайте в код. Повторное получение сетевых источников может дать другой состав данных. Контрольные суммы описывают именно эту версию; запуск ноутбуков не гарантирует побайтного воспроизведения изменяющихся источников.
+Each `.tsv.gz` file contains a header followed by tab-separated records.
 
-## Проверки и ограничения
+| Column | Description |
+|---|---|
+| `id` | Record identifier |
+| `kk` | Kazakh text |
+| `zh` | Chinese text |
+| `source` | Source identifier |
+| `license` | Recorded source license |
+| `labse` | Sentence similarity score |
 
-Все 214 000 пар прочитаны, контрольные суммы исходного архива совпали. Пустых kk/zh нет. Новые пары прошли три порога LaBSE 0.72 (kk–zh, kk–en, en–zh); это не процент точности. Проверка всех переводов человеком не выполнялась.
+Additional columns contain provenance and processing metadata.
+Column availability varies between splits.
 
-Проверка NFKC + casefold + схлопывание пробелов обнаружила 8 повторных пар в train и 1 в dev. Они сохранены. Между dev и test есть 3 совпадающих казахских текста; соответствующие китайские тексты различаются. Точных совпадений нормализованного kk или zh между train и dev/test не найдено. Это не проверка всех смысловых или документных пересечений. В новых 147 881 парах точных нормализованных повторов kk и zh не найдено.
+When reading with pandas, use `sep="\t"`, `quoting=csv.QUOTE_NONE`,
+`dtype=str` and `keep_default_na=False`.
 
-## Источники
+Row counts include retained duplicate records. Similarity scores
+are filtering signals, not estimates of translation accuracy.
 
-- KazParC: https://huggingface.co/datasets/issai/kazparc
-- OPUS: https://opus.nlpl.eu/
-- Wikipedia: ссылки в `url` исходных строк
-- Weblate: ссылки в `url` исходных строк
-- Qwen: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct
-- LaBSE: https://huggingface.co/sentence-transformers/LaBSE
+## Licensing and Provenance
 
-Авторство KazParC: Rustem Yeshpanov, Alina Polonskaya, Huseyin Atakan Varol. *KazParC: Kazakh Parallel Corpus for Machine Translation*, LREC-COLING 2024, pp. 9633–9644. https://aclanthology.org/2024.lrec-main.842/
+The MIT License applies only to the preparation code.
+Corpus texts remain subject to their source licenses.
+
+Source information and translation provenance are recorded in
+`manifest.json` and `metadata/`. See `LICENSES.md` for source-specific
+conditions and outstanding redistribution checks.
